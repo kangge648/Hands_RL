@@ -1,2 +1,2 @@
-for i in reversed(range(0, 2)):
+for i in reversed(range(0, 3)):
     print(i)
