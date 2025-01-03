@@ -1,7 +1,7 @@
 import gym
-from code1 import PolicyIteration
-from code1 import print_agent
-from code2 import ValueIteration
+from PolicyIteration import PolicyIteration
+from PolicyIteration import print_agent
+from ValueIteration import ValueIteration
 
 env = gym.make("FrozenLake-v1")  # 创建环境
 env = env.unwrapped  # 解封装才能访问状态转移矩阵P
