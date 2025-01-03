@@ -1,7 +1,9 @@
 import gym
-import 
+from code1 import PolicyIteration
+from code1 import print_agent
+from code2 import ValueIteration
 
-env = gym.make("FrozenLake-v0")  # 创建环境
+env = gym.make("FrozenLake-v1")  # 创建环境
 env = env.unwrapped  # 解封装才能访问状态转移矩阵P
 env.render()  # 环境渲染,通常是弹窗显示或打印出可视化的环境
 
